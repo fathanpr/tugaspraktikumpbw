@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kalkulator.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>Kalkulator HTML CSS JS</title>
+</head>
+<body>
+    <h1>Kalkulator Fathan</h1>
+    <div class="container">
+        <div class="kalkulator">
+            <input type="text" id="output-screen" placeholder="0" disabled> <!--Place holder untuk text default pada input box-->
+            <button onclick="Clear()">CE</button>
+            <button onclick="del()" id="hapus">DEL</button>
+            <button onclick="display('%')">MOD</button>
+            <button onclick="display('/')">/</button>
+            <button onclick="display('7')">7</button>
+            <button onclick="display('8')">8</button>
+            <button onclick="display('9')">9</button>
+            <button onclick="display('*')">*</button>
+            <button onclick="display('4')">4</button>
+            <button onclick="display('5')">5</button>
+            <button onclick="display('6')">6</button>
+            <button onclick="display('+')">+</button>
+            <button onclick="display('1')">1</button>
+            <button onclick="display('2')">2</button>
+            <button onclick="display('3')">3</button>
+            <button onclick="display('-')">-</button>
+            <button onclick="display('.')">.</button>
+            <button onclick="display('0')">0</button>
+            <button onclick="hasil()" class="hasil" id="samadengan">=</button>
+        </div>
+    </div>
+    <script src="kalkulator.js"></script>
+</body>
+</html>
