@@ -1,0 +1,62 @@
+body{
+    font-family: verdana, arial, helvetica;
+    margin-top: 5px;
+    line-height: 1.65;
+    padding-bottom: 100px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: -5px;
+}
+
+#input{
+    margin-left: 230px;
+    width: 870px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input{
+    margin-left: 230px;
+}
+
+.alamat{
+    margin-left: 230px;
+    width: 870px;
+    height: 50px;
+    opacity: 50%;
+}
+
+label{
+    margin-left: 230px;
+    line-height: 30px;
+}
+
+select{
+    margin-left: 230px;
+    width: 870px;
+    height: 40px;
+    padding: 12px 12px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+
+button{
+    width: 100px;
+    font-family: sans-serif;
+    font-size: 15px;
+    background: blue;
+    color: white;
+    border: white 3px solid;
+    border-radius: 6px;
+    padding: 12px 20px;
+    text-decoration: none;
+    margin-left: 230px;
+    margin-top: 10px;
+}
